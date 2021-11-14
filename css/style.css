@@ -9,6 +9,12 @@
 }
 body{
     font-family: serif;
+    background-image: url(../images/bg-home.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    top: 0%;
+
 }
 html{
     font-size: 98%;
@@ -19,10 +25,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 8rem;
+    padding: 1rem 6rem;
     box-shadow: 3px 4px 10px 1px #aaa;
     height: 6rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    background: #fff;
 }
 nav .logo img{
     width: 6rem;
@@ -32,10 +39,16 @@ nav ul{
     display: flex;
 }
 nav ul li{
-    margin: 0 .8rem;
+    margin: 0;
 }
 nav ul li a{
-    font-size: 1.8rem;
+    padding: .6rem 1rem;
+    color: #01019e;
+}
+nav ul li a:hover{
+    background: #26c9ff;
+    transition: .5s ease-in-out;
+    color: #fff;
 }
 /* end header */
 
