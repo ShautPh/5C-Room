@@ -56,16 +56,15 @@ nav ul li a:hover{
 
 /* <!--start body --> */
     table {
+        text-align: center;
         width: 80%;
         margin:2rem auto;
-        text-align: center;
-        
     }
     table , th, td{
-        border-collapse: collapse;
-        
+        border-collapse: collapse; 
         padding: 10px;
     }
+ 
     table th {
         color: #fff;
         font-size: 1.5rem;
