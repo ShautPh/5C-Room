@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Nunito:wght@300&family=Oleo+Script&family=Qahiri&family=Titillium+Web:wght@600&family=Ubuntu&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,13 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: serif;
-    background-image: url(../images/bg-home.jpg);
-    background-position: center;
-    background-size: cover;
-    position: sticky;
-    top: 0%;
-
+    font-family: ubuntu;
 }
 html{
     font-size: 98%;
@@ -30,6 +25,8 @@ nav{
     height: 6rem;
     font-size: 1.6rem;
     background: #fff;
+    position: sticky;
+    top: 0%;
 }
 nav .logo img{
     width: 6rem;
@@ -50,13 +47,24 @@ nav ul li a:hover{
     transition: .5s ease-in-out;
     color: #fff;
 }
+.container{
+    background-image: url(../images/bg-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    position: sticky;
+    top: 0%;
+    z-index: -1;
+}
 /* end header */
 
 
 
 /* <!--start body --> */
+.bg-white{
+    background: #fff;
+}
     table {
-        text-align: center;
         width: 80%;
         margin:2rem auto;
     }
@@ -71,7 +79,7 @@ nav ul li a:hover{
         background: rgb(38, 201, 255);
     }
     table td {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     table tr:nth-child(odd){
         background: rgb(167, 163, 163);
