@@ -22,7 +22,31 @@ html{
 
 
 /* <!--start body --> */
-
+    table {
+        width: 80%;
+        margin:2rem auto;
+        text-align: center;
+        
+    }
+    table , th, td{
+        border-collapse: collapse;
+        
+        padding: 10px;
+    }
+    table th {
+        color: #fff;
+        font-size: 1.5rem;
+        background: rgb(38, 201, 255);
+    }
+    table td {
+        font-size: 1rem;
+    }
+    table tr:nth-child(odd){
+        background: rgb(167, 163, 163);
+    }
+    table tr:nth-child(even){
+        background: rgba(167, 163, 163, 0.637);
+    }
 
 /* <!--end body -->  */
 
