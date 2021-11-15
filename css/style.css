@@ -15,8 +15,28 @@ html{
 }
 
 /* start header */
-
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+    box-shadow: 3px 4px 10px 1px #aaa;
+    height: 6rem;
+    font-size: 1.8rem;
+}
+nav .logo img{
+    width: 6rem;
+    height: 5rem;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0 .8rem;
+}
+nav ul li a{
+    font-size: 1.8rem;
+}
 /* end header */
 
 
